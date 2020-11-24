@@ -1,0 +1,239 @@
+:root {
+    --white:#ffffff;
+     --gray: #d0d0d0;
+     --gray_1:#c0c0c0;
+     --gray_2: #a9a9a9;
+     --gray_3:  #707070;
+     --black: #000000;
+}
+html {
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white);
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-width: 0;
+    min-height: 100vh;
+    padding: 10px;
+    position: relative;
+}
+.nav {
+width: 100%;
+text-align: right;
+padding-left: 15px;
+padding-right: 30px;
+margin-top: 4px;
+}
+.list {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+list-style: none;
+}
+.n-li {
+    margin-right: 14px;
+    padding: 0 2px;
+    font-size: 14px !important;
+}
+a:link,
+a:visited {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.92;
+}
+a:hover {
+    text-decoration: underline;
+}
+.apps {
+    width: 36px;
+    height: 22px;
+    position: relative;
+    margin: 4px -2px;
+    margin-bottom: 0;
+    color: var(--gray_3)
+}
+.apps:hover {
+    cursor: pointer;
+    color: var(--black)
+}
+.sign {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: var(--white);
+    line-height: 28px;
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+.main_part {
+    margin-top: 30px;
+    text-align: center;
+    flex: 1;
+}
+.Logo {
+    padding-top: 110px;
+}
+.Search {
+    margin-top: 30px;
+    position: relative;
+    margin-left: 60px;
+}
+.form {
+    max-width: 584px;
+    margin: 0 auto;
+}
+.s-i {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: -34px;
+    margin-left: 12px;
+    position: absolute;
+}
+.search_icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+.i-field {
+    max-width: 480px;
+}
+.field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    padding: 5px 60px 0px 44px;
+    margin-left: 2px;
+    max-width: 480px;
+}
+.field:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.field:focus {
+    outline: none !important;
+}
+.k-icon {
+    height: 100%;
+    width: 34px;
+    display: flex;
+    align-items: center;
+    margin-top: -34px;
+    margin-left: 430px;
+    position: absolute;
+    order: 2;
+}
+.keyboard {
+    max-width: 26px;
+    max-height: 24px;
+}
+.m-icon {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: -34px;
+    margin-left: 460px;
+    position: absolute;
+    order: 3;
+}
+.micro {
+    max-height: 20px;
+    max-width: 20px;
+}
+.buttons {
+    margin-top: 25px;
+}
+.buttons button {
+background-image: -webkit-linear-gradient(top,#f8f9fa, var(--gray));
+background-color: var(--gray);
+border: 1px solid var(--gray_2);
+border-radius: 4px;
+color: #383a3d;
+font-family: Arial, sans-serif;
+font-size: 14px;
+margin: 10px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+-webkit-user-select: none;
+}
+.buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    color:#1d1d1d;
+}
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    color: #202124;
+    line-height: 50px;
+}
+.one{
+    display: inline;
+    margin-right: 14px;
+}
+.two {
+    display: inline;
+    margin-left: 600px;
+}
+.f-li {
+    padding-left: 27px;
+    font-size: 14px !important;
+}
+
+@media (max-width: 640px) {
+    foooter {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    footer span {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 584px) {
+    form {
+        padding: 0 15px;
+    }
+    .Logo {
+        width: 220px;
+    }
+}
