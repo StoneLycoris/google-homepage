@@ -220,7 +220,25 @@ footer {
 }
 
 @media (max-width: 660px) {
+	.main {
+		width: 100%;
+		max-width: 660px;
+	}
+	.Logo {
+		width: 300px;
+	  margin-left: 80px;
+	}
+	.m-icon {
+		margin-left: 360px;
+	}
+	.k-icon {
+		margin-left: 330px;
+	}
+	.buttons {
+		margin-left: 40px;
+	}
 	footer {
+		width: 100%;
 		line-height: 16px !important;
 	}
     footer span {
@@ -237,14 +255,19 @@ footer {
 }
 
 @media (max-width: 584px) {
+	.main {
+		max-width: 584px;
+		width: 100%;
+	}
     form {
         padding: 0 15px;
     }
     .Logo {
 		  width: 220px;
-		  margin-left: 20px;
+		  margin-left: 60px;
 	 }
 	 footer {
+		 width: 100%;
 		line-height: 16px !important;
 	}
     footer span {
