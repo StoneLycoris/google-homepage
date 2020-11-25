@@ -219,14 +219,21 @@ footer {
     font-size: 14px !important;
 }
 
-@media (max-width: 640px) {
-    foooter {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
+@media (max-width: 660px) {
+	footer {
+		line-height: 16px !important;
+	}
     footer span {
-        margin-bottom: 15px;
-    }
+        margin-bottom: 2px;
+	 }
+	 .one {
+		 margin-right: 16px;
+		 line-height: 14px !important;
+	 }
+	 .two {
+		 line-height: 14px !important;
+		 margin-left: 70px;
+	 }
 }
 
 @media (max-width: 584px) {
@@ -234,6 +241,23 @@ footer {
         padding: 0 15px;
     }
     .Logo {
-        width: 220px;
-    }
+		  width: 220px;
+		  margin-left: 20px;
+	 }
+	 footer {
+		line-height: 16px !important;
+	}
+    footer span {
+        margin-bottom: 2px;
+	 }
+	 .one {
+		 margin-right: 4px;
+		 line-height: 14px !important;
+		 font-size: 12px !important;
+	 }
+	 .two {
+		 line-height: 14px !important;
+		 margin-left: 10px;
+		 font-size: 12px !important;
+	 }
 }
