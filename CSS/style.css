@@ -8,6 +8,8 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+	overflow-y: auto;
 }
 *,
 *::before,
@@ -226,13 +228,13 @@ footer {
 	}
 	.Logo {
 		width: 300px;
-	  margin-left: 60px;
+	  margin-left: 120px;
 	}
 	.m-icon {
-		margin-left: 360px;
+		margin-left: 380px;
 	}
 	.k-icon {
-		margin-left: 330px;
+		margin-left: 350px;
 	}
 	.buttons {
 		margin-left: 40px;
@@ -243,16 +245,18 @@ footer {
 	}
     footer span {
         margin-bottom: 2px;
-	 }
+     }
+     .f-li {
+        font-size: 11px !important;
+        padding-left: 20px;
+     }
 	 .one {
 		 margin-right: 13px;
 		 line-height: 14px !important;
-     font-size: 11px !important;
 	 }
 	 .two {
 		 line-height: 14px !important;
 		 margin-left: 60px;
-     font-size: 11px !important;
 	 }
 }
 
@@ -263,13 +267,13 @@ footer {
 	}
     .Logo {
 		  width: 220px;
-		  margin-left: 40px;
+		  margin-left: 100px;
 	 }
 	 .m-icon {
-		 margin-left: 330px;
+		 margin-left: 350px;
 	 }
 	 .k-icon {
-		 margin-left: 300px;
+		 margin-left: 320px;
 	 }
 	 .buttons {
 		 margin-left: 50px;
@@ -282,15 +286,17 @@ footer {
 	}
     footer span {
         margin-bottom: 2px;
-	 }
+     }
+     .f-li {
+        font-size: 10px !important;
+        padding-left: 16px;
+     }
 	 .one {
 		 margin-right: 6px;
 		 line-height: 15px !important;
-		 font-size: 10px !important;
 	 }
 	 .two {
 		 line-height: 15px !important;
 		 margin-left: 10px;
-		 font-size: 10px !important;
 	 }
 }
