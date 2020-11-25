@@ -226,7 +226,7 @@ footer {
 	}
 	.Logo {
 		width: 300px;
-	  margin-left: 250px;
+	  margin-left: 100px;
 	}
 	.m-icon {
 		margin-left: 360px;
@@ -245,12 +245,14 @@ footer {
         margin-bottom: 2px;
 	 }
 	 .one {
-		 margin-right: 12px;
+		 margin-right: 13px;
 		 line-height: 14px !important;
+     font-size: 11px !important;
 	 }
 	 .two {
 		 line-height: 14px !important;
-		 margin-left: 64px;
+		 margin-left: 60px;
+     font-size: 11px !important;
 	 }
 }
 
@@ -261,16 +263,18 @@ footer {
 	}
     .Logo {
 		  width: 220px;
-		  margin-left: 220px;
+		  margin-left: 80px;
 	 }
 	 .m-icon {
-		 margin-left: 330px;
+		 margin-left: 310px;
 	 }
 	 .k-icon {
-		 margin-left: 300px;
+		 margin-left: 280px;
 	 }
 	 .buttons {
-		 margin-left: 26px;
+		 margin-left: 50px;
+     min-width: 40px;
+     height: 30px;
 	 }
 	 footer {
 		 width: 100%;
@@ -280,13 +284,13 @@ footer {
         margin-bottom: 2px;
 	 }
 	 .one {
-		 margin-right: 2px;
-		 line-height: 14px !important;
-		 font-size: 12px !important;
+		 margin-right: 6px;
+		 line-height: 15px !important;
+		 font-size: 10px !important;
 	 }
 	 .two {
-		 line-height: 14px !important;
-		 margin-left: 8px;
-		 font-size: 12px !important;
+		 line-height: 15px !important;
+		 margin-left: 10px;
+		 font-size: 10px !important;
 	 }
 }
