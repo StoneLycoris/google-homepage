@@ -226,7 +226,7 @@ footer {
 	}
 	.Logo {
 		width: 300px;
-	  margin-left: 80px;
+	  margin-left: 250px;
 	}
 	.m-icon {
 		margin-left: 360px;
@@ -245,12 +245,12 @@ footer {
         margin-bottom: 2px;
 	 }
 	 .one {
-		 margin-right: 16px;
+		 margin-right: 12px;
 		 line-height: 14px !important;
 	 }
 	 .two {
 		 line-height: 14px !important;
-		 margin-left: 70px;
+		 margin-left: 64px;
 	 }
 }
 
@@ -259,12 +259,18 @@ footer {
 		max-width: 584px;
 		width: 100%;
 	}
-    form {
-        padding: 0 15px;
-    }
     .Logo {
 		  width: 220px;
-		  margin-left: 60px;
+		  margin-left: 220px;
+	 }
+	 .m-icon {
+		 margin-left: 330px;
+	 }
+	 .k-icon {
+		 margin-left: 300px;
+	 }
+	 .buttons {
+		 margin-left: 26px;
 	 }
 	 footer {
 		 width: 100%;
@@ -274,13 +280,13 @@ footer {
         margin-bottom: 2px;
 	 }
 	 .one {
-		 margin-right: 4px;
+		 margin-right: 2px;
 		 line-height: 14px !important;
 		 font-size: 12px !important;
 	 }
 	 .two {
 		 line-height: 14px !important;
-		 margin-left: 10px;
+		 margin-left: 8px;
 		 font-size: 12px !important;
 	 }
 }
